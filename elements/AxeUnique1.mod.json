@@ -18,7 +18,7 @@
     "damageVsEntity": 11.0,
     "usageCount": 428,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "Items.GOLD_INGOT"

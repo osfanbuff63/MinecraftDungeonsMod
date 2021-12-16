@@ -39,4 +39,9 @@ public class ClaymoreUnique1Item extends SwordItem {
 		}, 3, -3.5f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
 		setRegistryName("claymore_unique_1");
 	}
+
+	@Override
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
+	}
 }

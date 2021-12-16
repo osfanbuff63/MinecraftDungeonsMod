@@ -38,4 +38,9 @@ public class AxeUnique2Item extends SwordItem {
 		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("axe_unique_2");
 	}
+
+	@Override
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
+	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft_dungeons_mod:items/t_soulknife_unique1_icon"
+  }
+}

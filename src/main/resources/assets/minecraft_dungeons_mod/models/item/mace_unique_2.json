@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft_dungeons_mod:items/t_mace_unique2_icon"
+  }
+}
