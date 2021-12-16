@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "minecraft:lapis_block"
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:slowbow"
+  }
+}

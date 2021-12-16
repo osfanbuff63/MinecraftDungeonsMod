@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "t_highlanderlongsword_icon",
+    "customModelName": "Normal",
+    "name": "Highlander Long Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MCDTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 8.0,
+    "usageCount": 400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

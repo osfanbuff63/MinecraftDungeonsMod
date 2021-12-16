@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "t_hammer_icon",
+    "customModelName": "Normal",
+    "name": "Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MCDTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 6.5,
+    "usageCount": 256,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

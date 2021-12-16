@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "t_pickaxe_steel_icon",
+    "customModelName": "Normal",
+    "name": "Pickaxe MCD",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MCDTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 16,
+    "damageVsEntity": 4.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

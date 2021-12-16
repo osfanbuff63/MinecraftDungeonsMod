@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft_dungeons_mod:items/t_totemofshielding_icon"
+  }
+}

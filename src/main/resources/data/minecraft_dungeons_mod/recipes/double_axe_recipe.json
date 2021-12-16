@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft_dungeons_mod:mcd_axe"
+  },
+  "addition": {
+    "item": "minecraft_dungeons_mod:mcd_axe"
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:double_axe"
+  }
+}

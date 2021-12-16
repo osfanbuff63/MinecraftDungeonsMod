@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "t_claymore_icon",
+    "customModelName": "Normal",
+    "name": "Claymore",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MCDTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 5.6,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

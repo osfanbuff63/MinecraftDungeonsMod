@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:spear",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:string"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:whip",
+    "count": 1
+  }
+}

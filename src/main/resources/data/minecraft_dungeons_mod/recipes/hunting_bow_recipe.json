@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "minecraft:feather"
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:hunting_bow"
+  }
+}

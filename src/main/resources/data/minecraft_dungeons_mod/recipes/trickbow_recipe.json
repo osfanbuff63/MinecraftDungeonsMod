@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "minecraft:purple_dye"
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:trickbow"
+  }
+}
