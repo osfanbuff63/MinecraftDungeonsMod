@@ -1148,6 +1148,66 @@
       "ids": {},
       "registry_name": "whip_unique_1",
       "path": "~/Melee/Uniques"
+    },
+    {
+      "name": "AxeUnique1Recipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_unique_1_recipe",
+      "path": "~/Melee/Uniques/Recipes"
+    },
+    {
+      "name": "AxeUnique2Recipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_unique_2_recipe",
+      "path": "~/Melee/Uniques/Recipes"
+    },
+    {
+      "name": "ClaymoreUnique1Recipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "claymore_unique_1_recipe",
+      "path": "~/Melee/Uniques/Recipes"
+    },
+    {
+      "name": "ClaymoreUnique2Recipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "claymore_unique_2_recipe",
+      "path": "~/Melee/Uniques/Recipes"
+    },
+    {
+      "name": "BowUnique1",
+      "type": "rangeditem",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bow_unique_1",
+      "path": "~/Ranged/Uniques"
+    },
+    {
+      "name": "BowUnique2",
+      "type": "rangeditem",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bow_unique_2",
+      "path": "~/Ranged/Uniques"
     }
   ],
   "variable_elements": [],
@@ -1158,13 +1218,15 @@
       "item.minecraft_dungeons_mod.cutlass": "Cutlass",
       "item.minecraft_dungeons_mod.shock_powder": "Shock Powder",
       "item.minecraft_dungeons_mod.iron_hide_amulet": "Iron Hide Amulet",
+      "item.minecraft_dungeons_mod.bow_unique_1": "Bone Bow",
       "item.minecraft_dungeons_mod.mace": "Mace",
+      "item.minecraft_dungeons_mod.bow_unique_2": "Twin Bow",
       "item.minecraft_dungeons_mod.soul_bow": "Soul Bow",
       "item.minecraft_dungeons_mod.rapid_crossbow": "Rapid Crossbow",
       "item.minecraft_dungeons_mod.soul_scythe": "Soul Scythe",
       "item.minecraft_dungeons_mod.highlander_long_sword": "Highlander Long Sword",
-      "item.minecraft_dungeons_mod.axe_unique_1": "Golden MCD Axe",
-      "item.minecraft_dungeons_mod.axe_unique_2": "Ocean Axe",
+      "item.minecraft_dungeons_mod.axe_unique_1": "Firebrand",
+      "item.minecraft_dungeons_mod.axe_unique_2": "Highland Axe",
       "item.minecraft_dungeons_mod.heavy_crossbow": "Heavy Crossbow",
       "item.minecraft_dungeons_mod.hammer_unique_1": "Stormlander",
       "item.minecraft_dungeons_mod.hammer_unique_2": "Hammer of Gravity",
@@ -1254,7 +1316,12 @@
           },
           {
             "name": "Uniques",
-            "children": []
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1267,6 +1334,10 @@
         "children": [
           {
             "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Uniques",
             "children": []
           }
         ]

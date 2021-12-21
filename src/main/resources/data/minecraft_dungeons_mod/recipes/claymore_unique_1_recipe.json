@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft_dungeons_mod:claymore"
+  },
+  "addition": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": {
+    "item": "minecraft_dungeons_mod:claymore_unique_1"
+  }
+}

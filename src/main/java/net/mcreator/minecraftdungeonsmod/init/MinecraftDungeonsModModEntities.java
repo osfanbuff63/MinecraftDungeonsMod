@@ -26,6 +26,8 @@ import net.mcreator.minecraftdungeonsmod.entity.LongBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HuntingBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HeavyCrossbowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowEntity;
+import net.mcreator.minecraftdungeonsmod.entity.BowUnique2Entity;
+import net.mcreator.minecraftdungeonsmod.entity.BowUnique1Entity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -70,6 +72,12 @@ public class MinecraftDungeonsModModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<TrickbowEntity> TRICKBOW = register("entitybullettrickbow",
 			EntityType.Builder.<TrickbowEntity>of(TrickbowEntity::new, MobCategory.MISC).setCustomClientFactory(TrickbowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BowUnique1Entity> BOW_UNIQUE_1 = register("entitybulletbow_unique_1",
+			EntityType.Builder.<BowUnique1Entity>of(BowUnique1Entity::new, MobCategory.MISC).setCustomClientFactory(BowUnique1Entity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BowUnique2Entity> BOW_UNIQUE_2 = register("entitybulletbow_unique_2",
+			EntityType.Builder.<BowUnique2Entity>of(BowUnique2Entity::new, MobCategory.MISC).setCustomClientFactory(BowUnique2Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

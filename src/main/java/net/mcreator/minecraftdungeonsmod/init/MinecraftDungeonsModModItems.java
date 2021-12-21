@@ -92,6 +92,8 @@ import net.mcreator.minecraftdungeonsmod.item.ClaymoreUnique3Item;
 import net.mcreator.minecraftdungeonsmod.item.ClaymoreUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.ClaymoreUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.ClaymoreItem;
+import net.mcreator.minecraftdungeonsmod.item.BowUnique2Item;
+import net.mcreator.minecraftdungeonsmod.item.BowUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.BootsOfSwiftnessItem;
 import net.mcreator.minecraftdungeonsmod.item.AxeUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.AxeUnique1Item;
@@ -187,6 +189,8 @@ public class MinecraftDungeonsModModItems {
 	public static final Item SWORD_UNIQUE_1 = register(new SwordUnique1Item());
 	public static final Item SWORD_UNIQUE_2 = register(new SwordUnique2Item());
 	public static final Item WHIP_UNIQUE_1 = register(new WhipUnique1Item());
+	public static final Item BOW_UNIQUE_1 = register(new BowUnique1Item());
+	public static final Item BOW_UNIQUE_2 = register(new BowUnique2Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

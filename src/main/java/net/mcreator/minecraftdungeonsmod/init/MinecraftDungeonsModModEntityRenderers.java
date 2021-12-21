@@ -27,5 +27,7 @@ public class MinecraftDungeonsModModEntityRenderers {
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.SOUL_BOW, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.SOUL_CROSSBOW, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.TRICKBOW, ThrownItemRenderer::new);
+		event.registerEntityRenderer(MinecraftDungeonsModModEntities.BOW_UNIQUE_1, ThrownItemRenderer::new);
+		event.registerEntityRenderer(MinecraftDungeonsModModEntities.BOW_UNIQUE_2, ThrownItemRenderer::new);
 	}
 }
