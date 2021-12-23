@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "minecraft_dungeons_mod:items/t_gauntlets_icon"
-  }
-}

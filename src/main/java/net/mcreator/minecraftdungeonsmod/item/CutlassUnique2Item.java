@@ -35,7 +35,7 @@ public class CutlassUnique2Item extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 1, -3.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("cutlass_unique_2");
 	}
 

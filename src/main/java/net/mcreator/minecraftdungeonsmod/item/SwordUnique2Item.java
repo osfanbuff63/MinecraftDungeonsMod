@@ -35,7 +35,7 @@ public class SwordUnique2Item extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.6f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
 		setRegistryName("sword_unique_2");
 	}
 

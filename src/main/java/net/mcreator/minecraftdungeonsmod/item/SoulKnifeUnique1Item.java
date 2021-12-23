@@ -36,7 +36,7 @@ public class SoulKnifeUnique1Item extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -3.4f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
 		setRegistryName("soul_knife_unique_1");
 	}
 

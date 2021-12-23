@@ -33,7 +33,7 @@ public class MCDSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("mcd_sword");
 	}
 }

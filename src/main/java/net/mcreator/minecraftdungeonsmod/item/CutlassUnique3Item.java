@@ -35,7 +35,7 @@ public class CutlassUnique3Item extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.8f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
+		}, 3, -3f, new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB));
 		setRegistryName("cutlass_unique_3");
 	}
 

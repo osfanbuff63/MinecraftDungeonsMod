@@ -71,7 +71,6 @@ import net.mcreator.minecraftdungeonsmod.item.GongOfWeakeningItem;
 import net.mcreator.minecraftdungeonsmod.item.GlaiveUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.GlaiveUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.GlaiveItem;
-import net.mcreator.minecraftdungeonsmod.item.GauntletsItem;
 import net.mcreator.minecraftdungeonsmod.item.FireworksArrowItem;
 import net.mcreator.minecraftdungeonsmod.item.ExplodingCrossbowItem;
 import net.mcreator.minecraftdungeonsmod.item.DoubleAxeUnique2Item;
@@ -123,7 +122,6 @@ public class MinecraftDungeonsModModItems {
 	public static final Item CUTLASS = register(new CutlassItem());
 	public static final Item DAGGERS = register(new DaggersItem());
 	public static final Item DOUBLE_AXE = register(new DoubleAxeItem());
-	public static final Item GAUNTLETS = register(new GauntletsItem());
 	public static final Item GLAIVE = register(new GlaiveItem());
 	public static final Item HAMMER = register(new HammerItem());
 	public static final Item HIGHLANDER_LONG_SWORD = register(new HighlanderLongSwordItem());

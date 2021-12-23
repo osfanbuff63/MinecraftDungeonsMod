@@ -13,7 +13,7 @@
     "toolType": "Sword",
     "harvestLevel": 3,
     "efficiency": 4.0,
-    "attackSpeed": 0.4,
+    "attackSpeed": 1.6,
     "enchantability": 19,
     "damageVsEntity": 9.0,
     "usageCount": 1561,
