@@ -12,4 +12,4 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-If you find a vulnerability, please message me in some way. I don't have a great way to do this however.
+If you find a vulnerability, please create a security vulnerability on the Security tab.
