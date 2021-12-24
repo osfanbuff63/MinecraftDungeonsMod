@@ -26,6 +26,8 @@ import net.mcreator.minecraftdungeonsmod.entity.LongBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HuntingBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HeavyCrossbowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowEntity;
+import net.mcreator.minecraftdungeonsmod.entity.CrossbowUnique2Entity;
+import net.mcreator.minecraftdungeonsmod.entity.CrossbowUnique1Entity;
 import net.mcreator.minecraftdungeonsmod.entity.BowUnique2Entity;
 import net.mcreator.minecraftdungeonsmod.entity.BowUnique1Entity;
 
@@ -79,6 +81,14 @@ public class MinecraftDungeonsModModEntities {
 	public static final EntityType<BowUnique2Entity> BOW_UNIQUE_2 = register("entitybulletbow_unique_2",
 			EntityType.Builder.<BowUnique2Entity>of(BowUnique2Entity::new, MobCategory.MISC).setCustomClientFactory(BowUnique2Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<CrossbowUnique1Entity> CROSSBOW_UNIQUE_1 = register("entitybulletcrossbow_unique_1",
+			EntityType.Builder.<CrossbowUnique1Entity>of(CrossbowUnique1Entity::new, MobCategory.MISC)
+					.setCustomClientFactory(CrossbowUnique1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<CrossbowUnique2Entity> CROSSBOW_UNIQUE_2 = register("entitybulletcrossbow_unique_2",
+			EntityType.Builder.<CrossbowUnique2Entity>of(CrossbowUnique2Entity::new, MobCategory.MISC)
+					.setCustomClientFactory(CrossbowUnique2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

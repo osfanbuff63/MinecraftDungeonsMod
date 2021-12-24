@@ -85,6 +85,8 @@ import net.mcreator.minecraftdungeonsmod.item.CutlassUnique3Item;
 import net.mcreator.minecraftdungeonsmod.item.CutlassUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.CutlassUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.CutlassItem;
+import net.mcreator.minecraftdungeonsmod.item.CrossbowUnique2Item;
+import net.mcreator.minecraftdungeonsmod.item.CrossbowUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.CorruptedSeedsItem;
 import net.mcreator.minecraftdungeonsmod.item.CorruptedBeaconItem;
 import net.mcreator.minecraftdungeonsmod.item.ClaymoreUnique3Item;
@@ -189,6 +191,8 @@ public class MinecraftDungeonsModModItems {
 	public static final Item WHIP_UNIQUE_1 = register(new WhipUnique1Item());
 	public static final Item BOW_UNIQUE_1 = register(new BowUnique1Item());
 	public static final Item BOW_UNIQUE_2 = register(new BowUnique2Item());
+	public static final Item CROSSBOW_UNIQUE_1 = register(new CrossbowUnique1Item());
+	public static final Item CROSSBOW_UNIQUE_2 = register(new CrossbowUnique2Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
