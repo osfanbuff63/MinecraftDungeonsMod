@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="minecraft_dungeons_mod"
-version="1.1"
+version="1.1.1"
 displayName="Minecraft Dungeons Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="matty, MCreator"
+displayURL="https://github.com/osfanbuff63/MinecraftDungeonsMod"
+authors="osfanbuff63 "
+description='''
+A mod to add items from Minecraft Dungeons into Minecraft!
+'''
 
 [[dependencies.minecraft_dungeons_mod]]
     modId="minecraft"

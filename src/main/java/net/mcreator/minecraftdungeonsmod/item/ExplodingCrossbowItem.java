@@ -7,7 +7,6 @@ import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -16,11 +15,12 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.minecraftdungeonsmod.init.MinecraftDungeonsModModTabs;
 import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowEntity;
 
 public class ExplodingCrossbowItem extends Item {
 	public ExplodingCrossbowItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(255));
+		super(new Item.Properties().tab(MinecraftDungeonsModModTabs.TAB_MCD_TAB).durability(255));
 		setRegistryName("exploding_crossbow");
 	}
 

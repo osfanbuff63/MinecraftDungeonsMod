@@ -7,6 +7,7 @@ import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -20,7 +21,6 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.minecraftdungeonsmod.init.MinecraftDungeonsModModItems;
 import net.mcreator.minecraftdungeonsmod.init.MinecraftDungeonsModModEntities;
 
 import java.util.Random;
@@ -51,7 +51,7 @@ public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(MinecraftDungeonsModModItems.MCD_ARROW);
+		return new ItemStack(Blocks.AIR);
 	}
 
 	@Override
