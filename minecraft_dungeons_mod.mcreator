@@ -1224,8 +1224,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft_dungeons_mod.cutlass": "Cutlass",
       "item.minecraft_dungeons_mod.short_bow": "Shortbow",
+      "item.minecraft_dungeons_mod.cutlass": "Cutlass",
       "item.minecraft_dungeons_mod.crossbow_unique_2": "Azure Seeker",
       "item.minecraft_dungeons_mod.shock_powder": "Shock Powder",
       "item.minecraft_dungeons_mod.iron_hide_amulet": "Iron Hide Amulet",
@@ -1362,7 +1362,7 @@
   "workspaceSettings": {
     "modid": "minecraft_dungeons_mod",
     "modName": "Minecraft Dungeons Mod",
-    "version": "1.1.1",
+    "version": "1.2-beta.2.",
     "description": "A mod to add items from Minecraft Dungeons into Minecraft!",
     "author": "osfanbuff63 ",
     "websiteURL": "https://github.com/osfanbuff63/MinecraftDungeonsMod",
