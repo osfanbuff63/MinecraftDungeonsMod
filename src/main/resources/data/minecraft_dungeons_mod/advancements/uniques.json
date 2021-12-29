@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_dungeons_mod:sword_unique_1"
+    },
+    "title": {
+      "translate": "advancements.uniques.title"
+    },
+    "description": {
+      "translate": "advancements.uniques.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uniques": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft_dungeons_mod:sword_unique_1"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 40
+  },
+  "parent": "minecraft_dungeons_mod:obtain_mcd_sword"
+}

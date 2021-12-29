@@ -4,11 +4,12 @@ license="MIT License"
 
 [[mods]]
 modId="minecraft_dungeons_mod"
-version="1.2-beta.2."
+version="1.2-beta.3."
 displayName="Minecraft Dungeons Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/osfanbuff63/MinecraftDungeonsMod"
-authors="osfanbuff63 "
+logoFile="logo.png"
+authors="osfanbuff63"
 description='''
 A mod to add items from Minecraft Dungeons into Minecraft!
 '''

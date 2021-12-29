@@ -1218,6 +1218,36 @@
       "ids": {},
       "registry_name": "crossbow_unique_2",
       "path": "~/Ranged/Uniques"
+    },
+    {
+      "name": "ObtainMCDSword",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtain_mcd_sword",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ObtainClaymore",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtain_claymore",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Uniques",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uniques",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1231,6 +1261,7 @@
       "item.minecraft_dungeons_mod.iron_hide_amulet": "Iron Hide Amulet",
       "item.minecraft_dungeons_mod.bow_unique_1": "Bone Bow",
       "item.minecraft_dungeons_mod.crossbow_unique_1": "The Slicer",
+      "advancements.obtain_claymore.descr": "Obtain a claymore",
       "item.minecraft_dungeons_mod.mace": "Mace",
       "item.minecraft_dungeons_mod.bow_unique_2": "Twin Bow",
       "item.minecraft_dungeons_mod.soul_bow": "Soul Bow",
@@ -1250,6 +1281,7 @@
       "item.minecraft_dungeons_mod.long_bow": "Long Bow",
       "item.minecraft_dungeons_mod.mcd_axe": "MCD Axe",
       "item.minecraft_dungeons_mod.totem_of_regeneration": "Totem Of Regeneration",
+      "advancements.obtain_claymore.title": "That\u0027s some sharp clay!",
       "item.minecraft_dungeons_mod.light_feather": "Light Feather",
       "item.minecraft_dungeons_mod.soul_healer": "Soul Healer",
       "item.minecraft_dungeons_mod.harvester": "Harvester",
@@ -1265,6 +1297,7 @@
       "item.minecraft_dungeons_mod.sickles_unique_1": "Nightmare\u0027s Bite",
       "item.minecraft_dungeons_mod.whip": "Whip",
       "item.minecraft_dungeons_mod.ice_wand": "Ice Wand",
+      "advancements.uniques.title": "Uniques!",
       "item.minecraft_dungeons_mod.spear_unique_1": "Whispering Spear ",
       "item.minecraft_dungeons_mod.spear_unique_2": "Fortune Spear",
       "item.minecraft_dungeons_mod.whip_unique_1": "Vine Whip",
@@ -1272,8 +1305,10 @@
       "item.minecraft_dungeons_mod.corrupted_beacon": "Corrupted Beacon",
       "item.minecraft_dungeons_mod.cutlass_unique_1": "Nameless Blade",
       "item.minecraft_dungeons_mod.mcd_elytra": "MCD Elytra",
+      "advancements.uniques.descr": "Create a unique sword",
       "item.minecraft_dungeons_mod.power_bow": "Power Bow",
       "item.minecraft_dungeons_mod.cutlass_unique_3": "Sparkler",
+      "advancements.obtain_mcd_sword.descr": "Obtain an MCD Sword using a smithing table",
       "item.minecraft_dungeons_mod.wind_horn": "Wind Horn",
       "item.minecraft_dungeons_mod.soul_knife": "Soul Knife",
       "item.minecraft_dungeons_mod.gong_of_weakening": "Gong Of Weakening",
@@ -1293,6 +1328,7 @@
       "item.minecraft_dungeons_mod.glaive": "Glaive",
       "item.minecraft_dungeons_mod.corrupted_seeds": "Corrupted Seeds",
       "item.minecraft_dungeons_mod.daggers_unique_1": "Fangs of Frost",
+      "advancements.obtain_mcd_sword.title": "The Key to an Adventure",
       "item.minecraft_dungeons_mod.katana": "Katana",
       "item.minecraft_dungeons_mod.spear": "Spear",
       "item.minecraft_dungeons_mod.daggers_unique_2": "Moon Daggers",
@@ -1356,19 +1392,24 @@
       {
         "name": "Armor",
         "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "minecraft_dungeons_mod",
     "modName": "Minecraft Dungeons Mod",
-    "version": "1.2-beta.2.",
+    "version": "1.2-beta.3.",
     "description": "A mod to add items from Minecraft Dungeons into Minecraft!",
-    "author": "osfanbuff63 ",
+    "author": "osfanbuff63",
     "websiteURL": "https://github.com/osfanbuff63/MinecraftDungeonsMod",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "t_corruptedbeacon_icon_inventory",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
