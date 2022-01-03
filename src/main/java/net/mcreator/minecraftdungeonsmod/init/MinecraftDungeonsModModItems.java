@@ -72,6 +72,7 @@ import net.mcreator.minecraftdungeonsmod.item.GlaiveUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.GlaiveUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.GlaiveItem;
 import net.mcreator.minecraftdungeonsmod.item.FireworksArrowItem;
+import net.mcreator.minecraftdungeonsmod.item.ExplodingCrossbowUnique1Item;
 import net.mcreator.minecraftdungeonsmod.item.ExplodingCrossbowItem;
 import net.mcreator.minecraftdungeonsmod.item.DoubleAxeUnique2Item;
 import net.mcreator.minecraftdungeonsmod.item.DoubleAxeUnique1Item;
@@ -193,6 +194,7 @@ public class MinecraftDungeonsModModItems {
 	public static final Item BOW_UNIQUE_2 = register(new BowUnique2Item());
 	public static final Item CROSSBOW_UNIQUE_1 = register(new CrossbowUnique1Item());
 	public static final Item CROSSBOW_UNIQUE_2 = register(new CrossbowUnique2Item());
+	public static final Item EXPLODING_CROSSBOW_UNIQUE_1 = register(new ExplodingCrossbowUnique1Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
