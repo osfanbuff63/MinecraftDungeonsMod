@@ -1268,6 +1268,26 @@
       "ids": {},
       "registry_name": "exploding_crossbow_unique_1",
       "path": "~/Ranged/Uniques"
+    },
+    {
+      "name": "ObtainCutlass",
+      "type": "achievement",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtain_cutlass",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ObtianExplodingCrossbow",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtian_exploding_crossbow",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1336,8 +1356,10 @@
       "item.minecraft_dungeons_mod.light_feather": "Light Feather",
       "item.minecraft_dungeons_mod.harvester": "Harvester",
       "itemGroup.tabmcd_tab": "MCD Tab",
+      "advancements.obtain_cutlass.descr": "Obtain a cutlass",
       "item.minecraft_dungeons_mod.love_medallion": "Love Medallion",
       "item.minecraft_dungeons_mod.whip": "Whip",
+      "advancements.obtian_exploding_crossbow.descr": "Obtain an Exploding Crossbow",
       "advancements.uniques.title": "Uniques!",
       "item.minecraft_dungeons_mod.spear_unique_1": "Whispering Spear ",
       "item.minecraft_dungeons_mod.spear_unique_2": "Fortune Spear",
@@ -1347,6 +1369,7 @@
       "item.minecraft_dungeons_mod.cutlass_unique_1": "Nameless Blade",
       "item.minecraft_dungeons_mod.mcd_elytra": "MCD Elytra",
       "item.minecraft_dungeons_mod.cutlass_unique_3": "Sparkler",
+      "advancements.obtian_exploding_crossbow.title": "This crossbow....explodes?",
       "advancements.obtain_mcd_sword.descr": "Obtain an MCD Sword using a smithing table",
       "item.minecraft_dungeons_mod.wind_horn": "Wind Horn",
       "item.minecraft_dungeons_mod.gong_of_weakening": "Gong Of Weakening",
@@ -1369,6 +1392,7 @@
       "item.minecraft_dungeons_mod.claymore_unique_1": "Crimson Core",
       "item.minecraft_dungeons_mod.torment_quiver": "Torment Quiver",
       "item.minecraft_dungeons_mod.hammer": "Hammer",
+      "advancements.obtain_cutlass.title": "Cutting Lasses",
       "item.minecraft_dungeons_mod.claymore_unique_3": "Great Axe Blade",
       "item.minecraft_dungeons_mod.slowbow": "Slowbow",
       "item.minecraft_dungeons_mod.claymore_unique_2": "Broadsword"
@@ -1425,7 +1449,7 @@
   "workspaceSettings": {
     "modid": "minecraft_dungeons_mod",
     "modName": "Minecraft Dungeons Mod",
-    "version": "1.2-beta.3.",
+    "version": "1.2.0",
     "description": "A mod to add items from Minecraft Dungeons into Minecraft!",
     "author": "osfanbuff63",
     "websiteURL": "https://github.com/osfanbuff63/MinecraftDungeonsMod",

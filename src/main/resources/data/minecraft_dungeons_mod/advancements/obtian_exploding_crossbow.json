@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft_dungeons_mod:exploding_crossbow"
+    },
+    "title": {
+      "translate": "advancements.obtian_exploding_crossbow.title"
+    },
+    "description": {
+      "translate": "advancements.obtian_exploding_crossbow.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtian_exploding_crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft_dungeons_mod:exploding_crossbow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft_dungeons_mod:obtain_power_bow"
+}
