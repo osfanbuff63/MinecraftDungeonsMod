@@ -25,6 +25,7 @@ import net.mcreator.minecraftdungeonsmod.entity.PowerBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.LongBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HuntingBowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.HeavyCrossbowEntity;
+import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowUnique2Entity;
 import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowUnique1Entity;
 import net.mcreator.minecraftdungeonsmod.entity.ExplodingCrossbowEntity;
 import net.mcreator.minecraftdungeonsmod.entity.CrossbowUnique2Entity;
@@ -93,6 +94,10 @@ public class MinecraftDungeonsModModEntities {
 	public static final EntityType<ExplodingCrossbowUnique1Entity> EXPLODING_CROSSBOW_UNIQUE_1 = register("entitybulletexploding_crossbow_unique_1",
 			EntityType.Builder.<ExplodingCrossbowUnique1Entity>of(ExplodingCrossbowUnique1Entity::new, MobCategory.MISC)
 					.setCustomClientFactory(ExplodingCrossbowUnique1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ExplodingCrossbowUnique2Entity> EXPLODING_CROSSBOW_UNIQUE_2 = register("entitybulletexploding_crossbow_unique_2",
+			EntityType.Builder.<ExplodingCrossbowUnique2Entity>of(ExplodingCrossbowUnique2Entity::new, MobCategory.MISC)
+					.setCustomClientFactory(ExplodingCrossbowUnique2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

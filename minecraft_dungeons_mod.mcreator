@@ -1288,6 +1288,52 @@
       "ids": {},
       "registry_name": "obtian_exploding_crossbow",
       "path": "~/Advancements"
+    },
+    {
+      "name": "ExplodingCrossbowUnique2ProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exploding_crossbow_unique_2_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ranged/Uniques"
+    },
+    {
+      "name": "ExplodingCrossbowUnique2HitsBlock",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exploding_crossbow_unique_2_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ranged/Uniques"
+    },
+    {
+      "name": "ExplodingCrossbowUnique2",
+      "type": "rangeditem",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exploding_crossbow_unique_2",
+      "path": "~/Ranged/Uniques"
     }
   ],
   "variable_elements": [],
@@ -1351,6 +1397,7 @@
       "item.minecraft_dungeons_mod.hammer_unique_2": "Hammer of Gravity",
       "advancements.obtain_power_bow.title": "I feel powerful",
       "item.minecraft_dungeons_mod.scatter_crossbow": "Scatter Crossbow",
+      "item.minecraft_dungeons_mod.exploding_crossbow_unique_2": "Firebolt Thrower",
       "item.minecraft_dungeons_mod.hunting_bow": "Hunting Bow",
       "item.minecraft_dungeons_mod.exploding_crossbow_unique_1": "Imploding Crossbow",
       "item.minecraft_dungeons_mod.light_feather": "Light Feather",

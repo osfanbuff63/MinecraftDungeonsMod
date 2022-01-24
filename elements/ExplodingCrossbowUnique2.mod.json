@@ -3,9 +3,9 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "t_explodingcrossbow_icon",
+    "texture": "t_explodingcrossbow_unique2_icon",
     "customModelName": "Normal",
-    "name": "Exploding Crossbow",
+    "name": "Firebolt Thrower",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MCDTab"
@@ -15,26 +15,26 @@
       "value": "Items.ARROW"
     },
     "shootConstantly": false,
-    "usageCount": 255,
+    "usageCount": 503,
     "actionSound": {
-      "value": "entity.generic.explode"
+      "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 5.0,
+    "bulletDamage": 4.5,
     "bulletKnockback": 5,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:MCDArrow"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "arrow.png",
     "onBulletHitsBlock": {
-      "name": "ExplodingCrossbowUnique2ProjectileHitsBlock"
+      "name": "ExplodingCrossbowUnique2HitsBlock"
     }
   }
 }

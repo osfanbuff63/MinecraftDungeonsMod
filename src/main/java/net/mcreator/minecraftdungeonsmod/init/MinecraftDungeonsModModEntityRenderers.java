@@ -32,5 +32,6 @@ public class MinecraftDungeonsModModEntityRenderers {
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.CROSSBOW_UNIQUE_1, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.CROSSBOW_UNIQUE_2, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW_UNIQUE_1, ThrownItemRenderer::new);
+		event.registerEntityRenderer(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW_UNIQUE_2, ThrownItemRenderer::new);
 	}
 }

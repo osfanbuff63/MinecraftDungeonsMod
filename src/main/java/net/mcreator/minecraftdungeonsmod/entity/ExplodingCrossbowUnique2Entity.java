@@ -7,7 +7,6 @@ import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -21,26 +20,27 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.minecraftdungeonsmod.procedures.ExplodingCrossbowUnique2ProjectileHitsBlockProcedure;
+import net.mcreator.minecraftdungeonsmod.procedures.ExplodingCrossbowUnique2HitsBlockProcedure;
+import net.mcreator.minecraftdungeonsmod.init.MinecraftDungeonsModModItems;
 import net.mcreator.minecraftdungeonsmod.init.MinecraftDungeonsModModEntities;
 
 import java.util.Random;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
-public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSupplier {
-	public ExplodingCrossbowEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		super(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW, world);
+public class ExplodingCrossbowUnique2Entity extends AbstractArrow implements ItemSupplier {
+	public ExplodingCrossbowUnique2Entity(FMLPlayMessages.SpawnEntity packet, Level world) {
+		super(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW_UNIQUE_2, world);
 	}
 
-	public ExplodingCrossbowEntity(EntityType<? extends ExplodingCrossbowEntity> type, Level world) {
+	public ExplodingCrossbowUnique2Entity(EntityType<? extends ExplodingCrossbowUnique2Entity> type, Level world) {
 		super(type, world);
 	}
 
-	public ExplodingCrossbowEntity(EntityType<? extends ExplodingCrossbowEntity> type, double x, double y, double z, Level world) {
+	public ExplodingCrossbowUnique2Entity(EntityType<? extends ExplodingCrossbowUnique2Entity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
 	}
 
-	public ExplodingCrossbowEntity(EntityType<? extends ExplodingCrossbowEntity> type, LivingEntity entity, Level world) {
+	public ExplodingCrossbowUnique2Entity(EntityType<? extends ExplodingCrossbowUnique2Entity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
 	}
 
@@ -52,7 +52,7 @@ public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Blocks.AIR);
+		return new ItemStack(MinecraftDungeonsModModItems.MCD_ARROW);
 	}
 
 	@Override
@@ -77,13 +77,14 @@ public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSuppli
 		Entity imediatesourceentity = this;
 		if (this.inGround) {
 
-			ExplodingCrossbowUnique2ProjectileHitsBlockProcedure.execute(entity);
+			ExplodingCrossbowUnique2HitsBlockProcedure.execute(entity);
 			this.discard();
 		}
 	}
 
-	public static ExplodingCrossbowEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
-		ExplodingCrossbowEntity entityarrow = new ExplodingCrossbowEntity(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW, entity, world);
+	public static ExplodingCrossbowUnique2Entity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+		ExplodingCrossbowUnique2Entity entityarrow = new ExplodingCrossbowUnique2Entity(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW_UNIQUE_2,
+				entity, world);
 		entityarrow.shoot(entity.getLookAngle().x, entity.getLookAngle().y, entity.getLookAngle().z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -91,19 +92,20 @@ public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSuppli
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
 		world.playSound((Player) null, entity.getX(), entity.getY(), entity.getZ(),
-				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.PLAYERS, 1,
+				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1,
 				1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
 
-	public static ExplodingCrossbowEntity shoot(LivingEntity entity, LivingEntity target) {
-		ExplodingCrossbowEntity entityarrow = new ExplodingCrossbowEntity(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW, entity, entity.level);
+	public static ExplodingCrossbowUnique2Entity shoot(LivingEntity entity, LivingEntity target) {
+		ExplodingCrossbowUnique2Entity entityarrow = new ExplodingCrossbowUnique2Entity(MinecraftDungeonsModModEntities.EXPLODING_CROSSBOW_UNIQUE_2,
+				entity, entity.level);
 		double d0 = target.getY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - entity.getX();
 		double d3 = target.getZ() - entity.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
+		entityarrow.setBaseDamage(4.5);
 		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(false);
 		entity.level.addFreshEntity(entityarrow);
@@ -111,7 +113,7 @@ public class ExplodingCrossbowEntity extends AbstractArrow implements ItemSuppli
 		double y = entity.getY();
 		double z = entity.getZ();
 		entity.level.playSound((Player) null, (double) x, (double) y, (double) z,
-				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.PLAYERS, 1,
+				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1,
 				1f / (new Random().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
