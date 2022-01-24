@@ -1280,13 +1280,13 @@
       "path": "~/Advancements"
     },
     {
-      "name": "ObtianExplodingCrossbow",
+      "name": "ObtainExplodingCrossbow",
       "type": "achievement",
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "obtian_exploding_crossbow",
+      "registry_name": "obtain_exploding_crossbow",
       "path": "~/Advancements"
     }
   ],
