@@ -1,0 +1,31 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Github Action
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" 
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "America/New_York"
+    commit-message: 
+      prefix: "actions: "
+      prefix-development: "dev actions: "
+      include: "scope"
+    reviewers:
+      - "osfanbuff63"
+   # Gradle
+   - package-ecosystem: "gradle"
+     directory: "/"
+     schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "America/New_York"
+     commit-message:
+      prefix: "gradle: "
+      prefix-development: "dev gradle: "
+      include: "scope"
