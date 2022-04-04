@@ -19,13 +19,15 @@ updates:
     reviewers:
       - "osfanbuff63"
    # Gradle
-   - package-ecosystem: "gradle"
-     directory: "/"
-     schedule:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
       interval: "daily"
       time: "09:00"
       timezone: "America/New_York"
-     commit-message:
+    commit-message:
       prefix: "gradle: "
       prefix-development: "dev gradle: "
       include: "scope"
+    reviewers:
+      - "osfanbuff63"
