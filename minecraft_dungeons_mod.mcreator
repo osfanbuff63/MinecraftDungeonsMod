@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "MCDTab",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_tab"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tasty_bone",
       "path": "~/Artifacts"
     },
@@ -26,7 +23,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_arrow"
     },
     {
@@ -35,7 +31,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "exploding_crossbow",
       "path": "~/Ranged"
     },
@@ -45,7 +40,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "heavy_crossbow",
       "path": "~/Ranged"
     },
@@ -55,7 +49,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hunting_bow",
       "path": "~/Ranged"
     },
@@ -65,7 +58,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "long_bow",
       "path": "~/Ranged"
     },
@@ -75,7 +67,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "power_bow",
       "path": "~/Ranged"
     },
@@ -85,7 +76,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rapid_crossbow",
       "path": "~/Ranged"
     },
@@ -95,7 +85,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "scatter_crossbow",
       "path": "~/Ranged"
     },
@@ -105,7 +94,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "short_bow",
       "path": "~/Ranged"
     },
@@ -115,7 +103,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "slowbow",
       "path": "~/Ranged"
     },
@@ -125,7 +112,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_bow",
       "path": "~/Ranged"
     },
@@ -135,7 +121,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_crossbow",
       "path": "~/Ranged"
     },
@@ -145,7 +130,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "trickbow",
       "path": "~/Ranged"
     },
@@ -155,7 +139,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_axe",
       "path": "~/Melee"
     },
@@ -165,7 +148,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore",
       "path": "~/Melee"
     },
@@ -175,7 +157,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cutlass",
       "path": "~/Melee"
     },
@@ -185,7 +166,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "daggers",
       "path": "~/Melee"
     },
@@ -195,7 +175,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "double_axe",
       "path": "~/Melee"
     },
@@ -205,7 +184,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "glaive",
       "path": "~/Melee"
     },
@@ -215,7 +193,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hammer",
       "path": "~/Melee"
     },
@@ -225,7 +202,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "highlander_long_sword",
       "path": "~/Melee"
     },
@@ -235,7 +211,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "katana",
       "path": "~/Melee"
     },
@@ -245,7 +220,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mace",
       "path": "~/Melee"
     },
@@ -255,7 +229,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pickaxe_mcd",
       "path": "~/Melee"
     },
@@ -265,7 +238,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sickles",
       "path": "~/Melee"
     },
@@ -275,7 +247,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_knife",
       "path": "~/Melee"
     },
@@ -285,7 +256,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_scythe",
       "path": "~/Melee"
     },
@@ -295,7 +265,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "spear",
       "path": "~/Melee"
     },
@@ -305,7 +274,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_sword",
       "path": "~/Melee"
     },
@@ -315,7 +283,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whip",
       "path": "~/Melee"
     },
@@ -325,7 +292,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_hide_amulet",
       "path": "~/Artifacts"
     },
@@ -335,7 +301,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "boots_of_swiftness",
       "path": "~/Artifacts"
     },
@@ -345,7 +310,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "corrupted_beacon",
       "path": "~/Artifacts"
     },
@@ -355,7 +319,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "corrupted_seeds",
       "path": "~/Artifacts"
     },
@@ -365,7 +328,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "death_cap_mushroom",
       "path": "~/Artifacts"
     },
@@ -375,7 +337,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_elytra",
       "path": "~/Artifacts"
     },
@@ -385,7 +346,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "fireworks_arrow",
       "path": "~/Artifacts"
     },
@@ -395,7 +355,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gong_of_weakening",
       "path": "~/Artifacts"
     },
@@ -405,7 +364,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "harvester",
       "path": "~/Artifacts"
     },
@@ -415,7 +373,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ice_wand",
       "path": "~/Artifacts"
     },
@@ -425,7 +382,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "light_feather",
       "path": "~/Artifacts"
     },
@@ -435,7 +391,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "love_medallion",
       "path": "~/Artifacts"
     },
@@ -445,7 +400,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "shock_powder",
       "path": "~/Artifacts"
     },
@@ -455,7 +409,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_healer",
       "path": "~/Artifacts"
     },
@@ -465,7 +418,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tome_of_duplication",
       "path": "~/Artifacts"
     },
@@ -475,7 +427,6 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "torment_quiver",
       "path": "~/Artifacts"
     },
@@ -485,7 +436,6 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "totem_of_regeneration",
       "path": "~/Artifacts"
     },
@@ -495,7 +445,6 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "totem_of_shielding",
       "path": "~/Artifacts"
     },
@@ -505,7 +454,6 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wind_horn",
       "path": "~/Artifacts"
     },
@@ -515,7 +463,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wonderful_wheat",
       "path": "~/Artifacts"
     },
@@ -525,7 +472,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_sword_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -535,7 +481,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_axe_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -545,7 +490,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -555,7 +499,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "double_axe_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -565,7 +508,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cutlass_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -575,7 +517,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "daggers_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -585,7 +526,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "glaive_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -595,7 +535,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hammer_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -605,7 +544,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "highlander_long_sword_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -615,7 +553,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "katana_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -625,7 +562,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mace_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -635,7 +571,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mcd_pickaxe_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -645,7 +580,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sickles_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -655,7 +589,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_knife_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -665,7 +598,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_scythe_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -675,7 +607,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "spear_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -685,7 +616,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whip_recipe",
       "path": "~/Melee/Recipes"
     },
@@ -695,7 +625,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "exploding_crossbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -705,7 +634,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "heavy_crossbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -715,7 +643,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hunting_bow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -725,7 +652,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "longbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -735,7 +661,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "power_bow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -745,7 +670,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rapid_crossbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -755,7 +679,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "scatter_crossbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -765,7 +688,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "shortbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -775,7 +697,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "slowbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -785,7 +706,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_bow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -795,7 +715,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_crossbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -805,7 +724,6 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "trickbow_recipe",
       "path": "~/Ranged/Recipes"
     },
@@ -815,7 +733,6 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "axe_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -825,7 +742,6 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "axe_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -835,7 +751,6 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -845,7 +760,6 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -855,7 +769,6 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_unique_3",
       "path": "~/Melee/Uniques"
     },
@@ -865,7 +778,6 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cutlass_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -875,7 +787,6 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cutlass_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -885,7 +796,6 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cutlass_unique_3",
       "path": "~/Melee/Uniques"
     },
@@ -895,7 +805,6 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "daggers_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -905,7 +814,6 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "daggers_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -915,7 +823,6 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "daggers_unique_3",
       "path": "~/Melee/Uniques"
     },
@@ -925,7 +832,6 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "double_axe_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -935,7 +841,6 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "double_axe_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -945,7 +850,6 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "glaive_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -955,7 +859,6 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "glaive_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -965,7 +868,6 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hammer_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -975,7 +877,6 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hammer_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -985,7 +886,6 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "katana_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -995,7 +895,6 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "katana_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1005,7 +904,6 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mace_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1015,7 +913,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mace_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1025,7 +922,6 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pickaxe_steel_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1035,7 +931,6 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sickles_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1045,7 +940,6 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sickles_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1055,7 +949,6 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_knife_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1065,7 +958,6 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_knnife_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1075,7 +967,6 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_scythe_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1085,7 +976,6 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soul_scythe_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1095,7 +985,6 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "spear_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1105,7 +994,6 @@
       "sortid": 111,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "spear_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1115,7 +1003,6 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sword_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1125,7 +1012,6 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sword_unique_2",
       "path": "~/Melee/Uniques"
     },
@@ -1135,7 +1021,6 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whip_unique_1",
       "path": "~/Melee/Uniques"
     },
@@ -1145,7 +1030,6 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "axe_unique_1_recipe",
       "path": "~/Melee/Uniques/Recipes"
     },
@@ -1155,7 +1039,6 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "axe_unique_2_recipe",
       "path": "~/Melee/Uniques/Recipes"
     },
@@ -1165,7 +1048,6 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_unique_1_recipe",
       "path": "~/Melee/Uniques/Recipes"
     },
@@ -1175,7 +1057,6 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "claymore_unique_2_recipe",
       "path": "~/Melee/Uniques/Recipes"
     },
@@ -1185,7 +1066,6 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bow_unique_1",
       "path": "~/Ranged/Uniques"
     },
@@ -1195,7 +1075,6 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bow_unique_2",
       "path": "~/Ranged/Uniques"
     },
@@ -1205,7 +1084,6 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "crossbow_unique_1",
       "path": "~/Ranged/Uniques"
     },
@@ -1215,7 +1093,6 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "crossbow_unique_2",
       "path": "~/Ranged/Uniques"
     },
@@ -1225,7 +1102,6 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtain_mcd_sword",
       "path": "~/Advancements"
     },
@@ -1235,7 +1111,6 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtain_claymore",
       "path": "~/Advancements"
     },
@@ -1245,7 +1120,6 @@
       "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uniques",
       "path": "~/Advancements"
     },
@@ -1255,7 +1129,6 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtain_power_bow",
       "path": "~/Advancements"
     },
@@ -1265,7 +1138,6 @@
       "sortid": 127,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "exploding_crossbow_unique_1",
       "path": "~/Ranged/Uniques"
     },
@@ -1275,7 +1147,6 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtain_cutlass",
       "path": "~/Advancements"
     },
@@ -1449,21 +1320,21 @@
   "workspaceSettings": {
     "modid": "minecraft_dungeons_mod",
     "modName": "Minecraft Dungeons Mod",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "description": "A mod to add items from Minecraft Dungeons into Minecraft!",
     "author": "osfanbuff63",
     "websiteURL": "https://github.com/osfanbuff63/MinecraftDungeonsMod",
-    "license": "MIT License",
-    "disableForgeVersionCheck": true,
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "modPicture": "t_corruptedbeacon_icon_inventory",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.minecraftdungeonsmod",
+    "modElementsPackage": "io.github.osfanbuff63.minecraft_dungeons_mod",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202100351219
