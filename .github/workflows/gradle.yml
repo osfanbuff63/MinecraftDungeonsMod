@@ -29,6 +29,6 @@ jobs:
       if: ${{ runner.os != 'Windows' }}
       run: chmod +x ./gradlew
     - name: Build with Gradle
-      uses: gradle/gradle-build-action@e88ed3e650b26bd116cfee53cf198c1f6856682d
+      uses: gradle/gradle-build-action@6125b490f2bbda6e55d8e01963ea729a02e41c63
       with:
         arguments: build
