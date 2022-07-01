@@ -1,4 +1,5 @@
 {
   "extends": ["github>osfanbuff63/renovate-config:default.json5"]
-  "ignoreDeps": ["forge"] // temp cause I dont want to update to 1.19 yet
+  // temp cause I dont want to update to 1.19 yet
+  "ignoreDeps": ["forge"] 
 }
